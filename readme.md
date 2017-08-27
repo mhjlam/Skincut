@@ -3,7 +3,6 @@
 C++ source code for master thesis **Real-time Simulation and Visualization of Cutting Wounds**.
 
 **Author:** Maurits Lam </br>
-**License:** This source code is released under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) license. </br>
 **Paper:** https://dspace.library.uu.nl/handle/1874/330493 </br>
 **Abstract:**
 > Many modern computer games and medical computer simulations feature skin injuries such as cuts and incisions. These two fields often approach this topic in different ways, where medical simulations commonly have a minimal visualization, and visualization in games is usually heavily based on artistic influence. As far as we know, no methods currently exist that combine mesh cutting simulation with skin visualization techniques in order to synthesize cutting wounds during runtime. Previous works neglect to describe a complete remeshing scheme that is able to maintain the topology and parameterization of an input surface mesh during interactive creation of arbitrary cuts. Additionally, the appearance and synthesis of cutting wounds has not been sufficiently addressed. In this thesis, we explore the feasibility of constructing a damage model that simulates and visualizes natural-looking cutting wounds by generating new geometry and texture maps in real time. A cutting simulation approach is presented which geometrically merges a cutting line into a mesh surface that is subsequently opened, revealing interior wound geometry that is generated on the fly. For visualizing the surface injury a wound texture is generated during runtime, and an extension to subsurface scattering is proposed to locally discolor the skin surface around the cutting area. Our approach is lightweight: using a mid-range desktop computer, cuts can be created in about 50 milliseconds on average, and a typical frame is rendered in about 2.5 milliseconds. We think that our approach can be attractive for increasing the realism of cutting wounds in real-time applications without having to rely on manual artistic input.
@@ -48,3 +47,6 @@ Hold **_Ctrl_** and click **_Left Mouse_** to subdivide the face under the mouse
 Press **_R_** to reload the scene at any time. In case of a critical runtime error, the application will ask to reload the scene as well. Note that this process may take a few seconds during which the application becomes unresponsive.
 
 The performance test described in the thesis can be executed by pressing **_T_**. Running times (in milliseconds) are written to the console window. This process can take several _minutes_ during which the application becomes unresponsive.
+
+## License
+This source code is released under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) license.
