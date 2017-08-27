@@ -1,0 +1,25 @@
+{
+	"bWireframe"		: false,
+	"bDashboard"		: true,
+
+	"bColor"			: true,
+	"bBumps"			: true,
+	"bShadows"			: true,
+	"bSpeculars"		: true,
+	"bOcclusion"		: true,
+	"bIrradiance"		: true,
+	"bScattering"		: true,
+	"bTransmittance"	: true,
+
+	"fAmbient"			: 0.40,
+	"fFresnel"			: 0.82,
+	"fRoughness"		: 0.50,
+	"fBumpiness"		: 0.90,
+	"fSpecularity"		: 1.88,
+	"fScattering"		: 0.014,
+	"fTranslucency"		: 0.83,
+	
+	"sPick"				: "carve",
+	"sSplit"			: "3split",
+	"sRenderer"			: "kelemen"
+}
