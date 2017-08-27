@@ -2,7 +2,7 @@
 
 C++ source code for master thesis **Real-time Simulation and Visualization of Cutting Wounds**.
 
-**Author:** Maurits Lam
+**Author:** Maurits Lam </br>
 **License:** This source code is released under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) license. </br>
 **Paper:** https://dspace.library.uu.nl/handle/1874/330493 </br>
 **Abstract:**
