@@ -26,8 +26,8 @@ Open the provided Visual Studio solution to build the solution. Required librari
 
 ## Libraries used
 
-* [DirectX Tool Kit](http://directxtk.codeplex.com/) (January 5, 2016)
-* [DirectXTex texture processing library](http://directxtex.codeplex.com/) (November 30, 2015)
+* [DirectX Tool Kit](https://github.com/Microsoft/DirectXTK) (January 5, 2016)
+* [DirectXTex texture processing library](https://github.com/Microsoft/DirectXTex) (November 30, 2015)
 * [ImGui](https://github.com/ocornut/imgui) (March 26, 2015; v1.37)
 * [SimpleJSON](https://github.com/MJPA/SimpleJSON) (May 26, 2012)
 
