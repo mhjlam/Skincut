@@ -15,7 +15,7 @@ C++ source code for master thesis **Real-time Simulation and Visualization of Cu
 * 1 GB memory (minimum for Windows 8)
 * DirectX 11.0 compatible video card
 
-Probably works under Windows 7 too.
+Probably also works on Windows 7 with some minor modifications.
 
 ## Build requirements
 
