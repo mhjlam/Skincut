@@ -35,7 +35,7 @@ Open the provided Visual Studio solution to build the solution. Required librari
 
 The application requires several resources to be present. By default it looks for a directory relative to the executable at `../../resources`. This directory and all subdirectories must remain intact. An alternate (relative or absolute) path to the `resources` directory can also be supplied as an argument to the program executable. Files `resources/config.json` and `resources/scene.json` can be modified to make changes to the configuration and scene definition, respectively.
 
-## User manual
+## Quick user guide
 
 Hold **_Shift_** and click **_Left Mouse_** to select the start of a new cut. Repeat to select the end of the cut. Note that a cut must span at least two mesh faces. Pressing **_P_** cycles through the available pick modes (draw wound texture only, draw wound texture and merge cutting line, or draw wound texture and carve incision).
 
