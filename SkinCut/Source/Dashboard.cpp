@@ -251,6 +251,7 @@ void Dashboard::Render(std::vector<Light*>& lights)
 		if (ImGui::CollapsingHeader("Renderer", "idRenderer", true, true)) {
 			int renderMode = ToInt(gConfig.RenderMode);
 			ImGui::Combo("", &renderMode, "Kelemen/Szirmay-Kalos\0Blinn-Phong\0Lambertian reflectance");
+            gConfig.RenderMode = (RenderType)renderMode;
 		}
 
 		if (ImGui::CollapsingHeader("Features", "idFeatures", true, true)) {
